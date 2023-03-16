@@ -82,6 +82,6 @@ for a in range(46, 78):
     a += 1
     res = pinging(kon)
     if 'Reply from' in pinging(kon):
-        ssh_command(ip=kon, port=22, user='admin', passwd='Jyls2nHQjDKv5RcWDCmP', cmd=cmd)
+        ssh_command(ip=kon, port=22, user='', passwd='', cmd=cmd)
 
 
